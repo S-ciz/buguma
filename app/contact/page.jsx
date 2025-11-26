@@ -306,7 +306,7 @@ export default function ContactPage() {
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
-                q: "How can I volunteer with BUGUMA?",
+                q: "How can I volunteer with BUGUMA SOUTH AFRICA?",
                 a: "Contact us to discuss volunteering opportunities that match your skills. We welcome volunteers across all program areas.",
               },
               {
