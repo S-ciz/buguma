@@ -63,7 +63,7 @@ export default function ProgramsPage() {
       shortDesc: 'Social cohesion & peaceful coexistence',
       fullDesc: 'Cultural exchanges and conflict resolution programs build bridges between refugees and host communities. We foster unity and understanding.',
       outcome: 'Integrated communities with strong social cohesion and peaceful coexistence.',
-      image: '/img/skill5.jpg',
+      image: '/img/showcase5.jpg',
       highlights: ['Cultural Exchanges', 'Conflict Resolution', 'Community Events', 'Dialogue Programs', 'Integration Support'],
       color: 'from-green-50 to-green-100',
       borderColor: 'border-green-500',
@@ -217,7 +217,7 @@ export default function ProgramsPage() {
               {
                 step: '1',
                 title: 'Reach Out',
-                description: 'Contact BUGUMA to learn about available programs and how you can participate.',
+                description: 'Contact BUGUMA SOUTH AFRICA to learn about available programs and how you can participate.',
               },
               {
                 step: '2',

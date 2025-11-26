@@ -59,7 +59,7 @@ export default function AboutPage() {
         <div className="container-custom text-center">
           <ScrollAnimatedSection>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About BUGUMA
+              About BUGUMA SOUTH AFRICA
             </h1>
             <p className="text-2xl text-gray-100 max-w-3xl mx-auto">
               A movement by refugees, for refugees, committed to dignity and opportunity.
