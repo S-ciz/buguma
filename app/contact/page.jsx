@@ -299,7 +299,7 @@ export default function ContactPage() {
               Quick Answers
             </h2>
             <p className="text-lg text-gray-600">
-              Common questions about BUGUMA and how to get involved.
+              Common questions about <span className="font-bold">BUGUMA SOUTH AFRICA</span> and how to get involved.
             </p>
           </ScrollAnimatedSection>
 
