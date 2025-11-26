@@ -78,13 +78,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-6">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  BUGUMA was founded on the belief that every refugee deserves the opportunity to rebuild their life with dignity, security, and purpose. Our organization emerged from the lived experiences of those who have walked the difficult path of displacement.
+                  <span className='font-bold'>BUGUMA SOUTH AFRICA</span> was founded on the belief that every refugee deserves the opportunity to rebuild their life with dignity, security, and purpose. Our organization emerged from the lived experiences of those who have walked the difficult path of displacement.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
                   We recognized that refugees aren't just victims in need of charity—they are resilient individuals with valuable skills, talents, and dreams. Our mission is to unlock these potentials through empowerment, education, and economic opportunity.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Today, BUGUMA serves hundreds of refugees across South Africa, providing practical support that creates real, measurable change in people's lives.
+                  Today, <span className='font-bold'>BUGUMA SOUTH AFRICA</span> serves hundreds of refugees across South Africa, providing practical support that creates real, measurable change in people's lives.
                 </p>
               </div>
             </div>

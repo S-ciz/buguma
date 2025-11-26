@@ -81,7 +81,7 @@ export default function Home() {
       name: 'Amara',
       role: 'Skills Training Graduate',
       image: '/img/showcase.jpg',
-      quote: 'BUGUMA gave me the skills and confidence to start my own business. Now I can support my family.',
+      quote: 'The commmunity gave me the skills and confidence to start my own business. Now I can support my family.',
     },
     {
       name: 'Hassan',
@@ -93,7 +93,7 @@ export default function Home() {
       name: 'Fatima',
       role: 'Women Empowerment',
       image: '/img/skill5.jpg',
-      quote: 'Thanks to BUGUMA, I found my voice and became an advocate for other women.',
+      quote: 'Thanks you so much team, I found my voice and became an advocate for other women.',
     },
   ];
 

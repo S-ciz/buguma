@@ -360,7 +360,7 @@ export default function DonatePage() {
                 href="/contact"
                 className="px-8 py-4 bg-primary-500 text-white font-bold rounded-lg hover:bg-primary-400 transition-all border-2 border-white inline-block"
               >
-                Contact BUGUMA
+                Contact us
               </Link>
             </div>
           </ScrollAnimatedSection>
