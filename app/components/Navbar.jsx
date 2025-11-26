@@ -40,10 +40,10 @@ export default function Navbar() {
 
       <div className="container-custom">
 
-        <div className="bg-red-700 h-[0px] hidden z-10 text-[0] text-[0px]">
-      <GoogleTranslate />
+        <div className="  z-10 mb-10 text-[0px]">
+      {/* <GoogleTranslate /> */}
     </div>
-        <div className="flex items-center md:gap-0 gap-3 justify-between h-16 md:h-20 h-[7rem] mt-[5rem]">
+        <div className="flex items-center md:gap-0 gap-3 justify-between h-16 md:h-20 h-[7rem] mt-[1rem]">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-2xl group">
             {/* <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-accent-500 rounded-lg flex items-center justify-center text-white font-bold group-hover:scale-110 transition-transform">
