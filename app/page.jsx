@@ -2,7 +2,7 @@
 import HeroSlider from './components/HeroSlider';
 import { ScrollAnimatedSection } from './components/ScrollObserver';
 import Link from 'next/link';
-import GoogleTranslate from "./components/Translator"
+
 
 export default function Home() {
   const objectives = [
@@ -100,7 +100,7 @@ export default function Home() {
   return (
   <>
       
-      <GoogleTranslate/>
+  
       {/* Hero Slider */}
       <HeroSlider />
 
