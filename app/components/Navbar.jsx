@@ -5,6 +5,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 
+
+import GoogleTranslate from "./Translator"
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,25 +29,31 @@ export default function Navbar() {
   ];
 
   return (
+
     <nav
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-white shadow-lg'
           : 'bg-transparent'
       }`}
-    >
+    >  
+
       <div className="container-custom">
-        <div className="flex items-center justify-between h-16 md:h-20">
+
+        <div className="bg-red-700 h-[0px] hidden z-10 text-[0] text-[0px]">
+      <GoogleTranslate />
+    </div>
+        <div className="flex items-center md:gap-0 gap-3 justify-between h-16 md:h-20 h-[7rem] mt-[5rem]">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-2xl group">
             {/* <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-accent-500 rounded-lg flex items-center justify-center text-white font-bold group-hover:scale-110 transition-transform">
               B
             </div> */}
             <div>
-             <Image width={50} height={50} alt='logo' src={"/img/logo.png"}/>
+             <Image className='w-auto h md:w-[150px] md:h-[150px] object-cover rounded-[50%] w-auto] h-auto' width={150} height={150} alt='logo' src={"/img/logo.png"}/>
             </div>
-            <span className={`text-primary-700 transition-colors duration-300 ${isScrolled ? 'text-primary-700' : 'text-white'}`}>
-              BUGUMA
+            <span className={`text-primary-700 lg:text-[1.5rem] text-[1rem] transition-colors duration-300 ${isScrolled ? 'text-primary-700' : 'text-white'}`}>
+              BUGUMA SOUTH AFRICA
             </span>
           </Link>
 

@@ -1,6 +1,8 @@
+"use client"
 import HeroSlider from './components/HeroSlider';
 import { ScrollAnimatedSection } from './components/ScrollObserver';
 import Link from 'next/link';
+import GoogleTranslate from "./components/Translator"
 
 export default function Home() {
   const objectives = [
@@ -78,25 +80,27 @@ export default function Home() {
     {
       name: 'Amara',
       role: 'Skills Training Graduate',
-      image: '/img/show1.jpg',
+      image: '/img/showcase.jpg',
       quote: 'BUGUMA gave me the skills and confidence to start my own business. Now I can support my family.',
     },
     {
       name: 'Hassan',
       role: 'Youth Empowerment',
-      image: '/img/show2.jpg',
+      image: '/img/showcase4.jpg',
       quote: 'The youth program changed my life. I learned leadership and made lifelong friends.',
     },
     {
       name: 'Fatima',
       role: 'Women Empowerment',
-      image: '/img/show3.jpg',
+      image: '/img/skill5.jpg',
       quote: 'Thanks to BUGUMA, I found my voice and became an advocate for other women.',
     },
   ];
 
   return (
-    <>
+  <>
+      
+      <GoogleTranslate/>
       {/* Hero Slider */}
       <HeroSlider />
 

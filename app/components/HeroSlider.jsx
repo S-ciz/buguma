@@ -10,22 +10,22 @@ export default function HeroSlider() {
   const slides = [
     {
       id: 1,
-      image: '/img/show1.jpg',
+      image: '/img/showcase2.jpg',
       alt: 'Community empowerment',
     },
     {
       id: 2,
-      image: '/img/show2.jpg',
+      image: '/img/showcase3.jpg',
       alt: 'Refugee support',
     },
     {
       id: 3,
-      image: '/img/show3.jpg',
+      image: '/img/showcase4.jpg',
       alt: 'Hope and healing',
     },
     {
       id: 4,
-      image: '/img/show4.jpg',
+      image: '/img/showcase5.jpg',
       alt: 'Community building',
     },
   ];

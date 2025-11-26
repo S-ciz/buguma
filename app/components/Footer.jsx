@@ -1,8 +1,9 @@
-import Link from 'next/link';
-
+import Link from "next/link";
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
+  const googleUrl =
+    "https://www.google.com/maps/place/1+Wyndcliff+Road+Lorentzville,+Johannesburg+2094,+South+Africa/@-26.1870795,28.066495,3a,75y,193.78h,90t/data=!3m4!1e1!3m2!1sn5HagvxiYS34seWsuvFicA!2e0!4m2!3m1!1s0x1e950dd345934575:0xdffeeddbd663ca4?sa=X&ved=1t:3780&ictx=111";
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-16 md:py-20">
@@ -13,10 +14,13 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-accent-500 rounded-lg flex items-center justify-center font-bold">
                 B
               </div>
-              <span className="font-bold text-xl">BUGUMA</span>
+              <span className="font-bold text-xl">BUGUMA SOUTH AFRICA</span>
             </div>
             <p className="text-gray-300 text-sm">
-              Supporting, empowering, and uplifting refugees to rebuild their lives with dignity and opportunity.
+              Buguma South Africa is registered as NPO with registration number
+              168-178 in terms of Non-profit organization Act 1997, registered
+              with south Africa revenue Services (SARS) with Tax number
+              9918906182 and as Public benefit organization (PBO)
             </p>
           </div>
 
@@ -24,10 +28,38 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li><Link href="/" className="hover:text-primary-400 transition-colors">Home</Link></li>
-              <li><Link href="/about" className="hover:text-primary-400 transition-colors">About Us</Link></li>
-              <li><Link href="/programs" className="hover:text-primary-400 transition-colors">Programs</Link></li>
-              <li><Link href="/donate" className="hover:text-primary-400 transition-colors">Donate</Link></li>
+              <li>
+                <Link
+                  href="/"
+                  className="hover:text-primary-400 transition-colors"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="hover:text-primary-400 transition-colors"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/programs"
+                  className="hover:text-primary-400 transition-colors"
+                >
+                  Programs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/donate"
+                  className="hover:text-primary-400 transition-colors"
+                >
+                  Donate
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -36,19 +68,29 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Contact Info</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <a href="mailto:bugumasouthafrica1@gmail.com" className="hover:text-primary-400 transition-colors">
+                <a
+                  href="mailto:bugumasouthafrica1@gmail.com"
+                  className="hover:text-primary-400 transition-colors"
+                >
                   bugumasouthafrica1@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+27813756297" className="hover:text-primary-400 transition-colors">
+                <a
+                  href="tel:+27813756297"
+                  className="hover:text-primary-400 transition-colors"
+                >
                   +27 81 375 6297
                 </a>
               </li>
               <li className="text-gray-400 text-xs">
-                4 Wyndcliff Road<br/>
-                Lorentzville, Johannesburg<br/>
-                2094, South Africa
+                <a href={googleUrl} target="_blank" rel="noopener noreferrer">
+                  1 Wyndcliff Road
+                  <br />
+                  Lorentzville, Johannesburg
+                  <br />
+                  2094, South Africa
+                </a>
               </li>
             </ul>
           </div>
@@ -64,19 +106,27 @@ export default function Footer() {
                 className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors"
                 aria-label="Facebook"
               >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                <svg
+                  className="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
               </a>
               <a
-                href="https://instagram.com/buguma"
+                href="https://www.youtube.com/@bugumasouthafrica4163"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center hover:bg-primary-600 transition-colors"
-                aria-label="Instagram"
+                className="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors"
+                aria-label="YouTube"
               >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1112.324 0 6.162 6.162 0 01-12.324 0zM12 16a4 4 0 110-8 4 4 0 010 8zm4.965-10.322a1.44 1.44 0 11-2.881 0 1.44 1.44 0 012.881 0z"/>
+                <svg
+                  className="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M23.5 6.2s-.2-1.7-.9-2.5c-.8-.9-1.7-.9-2.1-1C16.8 2.3 12 2.3 12 2.3h-.1s-4.8 0-8.5.4c-.4 0-1.3 0-2.1 1-.7.8-.9 2.5-.9 2.5S0 8.2 0 10.2v1.6c0 2 .1 4 .1 4s.2 1.7.9 2.5c.8.9 1.8.9 2.3 1 1.7.2 7.2.4 8.7.4h.3c1.5 0 7-.2 8.7-.4.4 0 1.5 0 2.3-1 .7-.8.9-2.5.9-2.5s.1-2 .1-4v-1.6c0-2-.1-4-.1-4zM9.6 14.7V7.3l6.2 3.7-6.2 3.7z" />
                 </svg>
               </a>
             </div>
@@ -86,7 +136,8 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-400 text-sm">
-            © {currentYear} BUGUMA South Africa. All rights reserved. | Built with compassion for refugees.
+            © {currentYear} BUGUMA South Africa. All rights reserved. | Built
+            with compassion for refugees.
           </p>
         </div>
       </div>
