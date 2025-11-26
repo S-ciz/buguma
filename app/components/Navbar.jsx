@@ -4,9 +4,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-
-
-import GoogleTranslate from "./Translator"
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,9 +37,7 @@ export default function Navbar() {
 
       <div className="container-custom">
 
-        <div className="  z-10 mb-10 text-[0px]">
-      {/* <GoogleTranslate /> */}
-    </div>
+   <div className="mb-10"></div>
         <div className="flex items-center md:gap-0 gap-3 justify-between h-16 md:h-20 h-[7rem] mt-[1rem]">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-2xl group">

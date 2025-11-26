@@ -76,7 +76,7 @@ export default function ProgramsPage() {
       fullDesc: 'Emergency assistance including food parcels, hygiene packs, and clothing for refugees during crisis periods. We address immediate survival needs.',
       outcome: 'Vulnerable families with immediate relief, dignity, and hope.',
       image: '/img/food.jpg',
-      highlights: ['Food Assistance', 'Hygiene Packs', 'Clothing Distribution', 'New Arrival Support', 'Emergency Aid'],
+      highlights: ['Food distribution', 'Feeding scheme', 'Hygiene Packs', 'Clothing Distribution', 'New Arrival Support', 'Emergency Aid'],
       color: 'from-orange-50 to-orange-100',
       borderColor: 'border-orange-500',
     },
