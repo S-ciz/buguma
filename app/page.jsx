@@ -84,13 +84,13 @@ export default function Home() {
       quote: 'The commmunity gave me the skills and confidence to start my own business. Now I can support my family.',
     },
     {
-      name: 'Espere Ruhegeza',
+      name: 'Esperer Ruhegeza',
       role: 'Youth Empowerment',
       image: '/img/youth.jpg',
       quote: 'The youth program changed my life. I learned leadership and made lifelong friends.',
     },
     {
-      name: 'Miriam Abdul',
+      name: 'Mariam Abdul',
       role: 'Women Empowerment',
       image: '/img/women.jpg',
       quote: 'Thanks you so much team, I found my voice and became an advocate for other women.',
