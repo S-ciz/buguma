@@ -38,14 +38,14 @@ export default function Navbar() {
       <div className="container-custom">
 
    <div className="mb-10"></div>
-        <div className="flex items-center md:gap-0 gap-3 justify-between h-16 md:h-20 h-[7rem] mt-[1rem]">
+        <div className="flex items-center md:gap-0 gap-3 justify-between h-16 md:h-20 mt-[1rem]">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 font-bold text-2xl group">
             {/* <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-accent-500 rounded-lg flex items-center justify-center text-white font-bold group-hover:scale-110 transition-transform">
               B
             </div> */}
             <div>
-             <Image className='w-auto h md:w-[150px] md:h-[150px] object-cover rounded-[50%] w-auto] h-auto' width={150} height={150} alt='logo' src={"/img/logo.png"}/>
+             <Image className='w-auto h md:w-[150px] md:h-[150px] object-cover rounded-[50%] w-auto] h-auto' loading='eager' width={150} height={150} alt='logo' src={"/img/logo.png"}/>
             </div>
             <span className={`text-primary-700 lg:text-[1.5rem] text-[1rem] transition-colors duration-300 ${isScrolled ? 'text-primary-700' : 'text-white'}`}>
               BUGUMA SOUTH AFRICA
