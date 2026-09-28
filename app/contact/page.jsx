@@ -72,7 +72,7 @@ export default function ContactPage() {
     {
       icon: "📍",
       title: "Address",
-      value: "1 Wyndcliff Road, Lorentzville, Johannesburg 2094, South Africa",
+      value: "24 Violet road, Fishers hill, Germinston 1401, Gauteng, South Africa",
       link: "#",
     },
   ];

@@ -2,8 +2,7 @@ import Link from "next/link";
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
-  const googleUrl =
-    "https://www.google.com/maps/place/1+Wyndcliff+Road+Lorentzville,+Johannesburg+2094,+South+Africa/@-26.1870795,28.066495,3a,75y,193.78h,90t/data=!3m4!1e1!3m2!1sn5HagvxiYS34seWsuvFicA!2e0!4m2!3m1!1s0x1e950dd345934575:0xdffeeddbd663ca4?sa=X&ved=1t:3780&ictx=111";
+  const googleUrl = "https://maps.app.goo.gl/fXvvkiw1JgxMTtum6";
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-16 md:py-20">
@@ -85,11 +84,11 @@ export default function Footer() {
               </li>
               <li className="text-gray-400 text-xs">
                 <a href={googleUrl} target="_blank" rel="noopener noreferrer">
-                  1 Wyndcliff Road
+                 24 Violet road, Fishers hill
                   <br />
-                  Lorentzville, Johannesburg
+                  Germinston, 1401
                   <br />
-                  2094, South Africa
+                  Gauteng, South Africa
                 </a>
               </li>
             </ul>
