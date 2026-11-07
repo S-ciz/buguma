@@ -72,7 +72,7 @@ export default function ContactPage() {
     {
       icon: "📍",
       title: "Address",
-      value: "24 Violet road, Fishers hill, Germinston 1401, Gauteng, South Africa",
+      value: "24 Violet road, Fishers hill, Germiston 1401, Gauteng, South Africa",
       link: "#",
     },
   ];

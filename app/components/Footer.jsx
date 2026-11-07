@@ -86,7 +86,7 @@ export default function Footer() {
                 <a href={googleUrl} target="_blank" rel="noopener noreferrer">
                  24 Violet road, Fishers hill
                   <br />
-                  Germinston, 1401
+                  Germiston, 1401
                   <br />
                   Gauteng, South Africa
                 </a>
